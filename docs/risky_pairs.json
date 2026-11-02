@@ -1,0 +1,4731 @@
+[
+ {
+  "sim": 0.999,
+  "a": "gamma",
+  "b": "gama",
+  "a_ing": [
+   "human normal immunoglobulin"
+  ],
+  "b_ing": [
+   "lindane"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.997,
+  "a": "divaa",
+  "b": "diva",
+  "a_ing": [
+   "divalproex"
+  ],
+  "b_ing": [
+   "menotrophin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.997,
+  "a": "skin",
+  "b": "skinn",
+  "a_ing": [
+   "hydroquinone",
+   "mometasone",
+   "tretinoin"
+  ],
+  "b_ing": [
+   "chlorhexidine gluconate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.973,
+  "a": "rekool",
+  "b": "recool",
+  "a_ing": [
+   "domperidone",
+   "itopride",
+   "levosulpiride",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "camphor",
+   "carboxymethylcellulose",
+   "menthol",
+   "naphazoline",
+   "phenylephrine",
+   "stabilized oxychloro"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.963,
+  "a": "hicet",
+  "b": "hizet",
+  "a_ing": [
+   "ambroxol",
+   "cetirizine",
+   "phenylephrine"
+  ],
+  "b_ing": [
+   "hydroxyzine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.962,
+  "a": "amfy",
+  "b": "amphy",
+  "a_ing": [
+   "amphotericin b",
+   "liposomal amphotericin b"
+  ],
+  "b_ing": [
+   "amoxycillin",
+   "sulbactam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.946,
+  "a": "timol",
+  "b": "thymol",
+  "a_ing": [
+   "timolol"
+  ],
+  "b_ing": [
+   "thymol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.937,
+  "a": "montas",
+  "b": "montaz",
+  "a_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "ceftriaxone",
+   "tazobactum"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.932,
+  "a": "sino",
+  "b": "scino",
+  "a_ing": [
+   "fluticasone propionate"
+  ],
+  "b_ing": [
+   "minoxidil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.902,
+  "a": "gflotas",
+  "b": "mflotas",
+  "a_ing": [
+   "dexamethasone",
+   "gatifloxacin"
+  ],
+  "b_ing": [
+   "loteprednol etabonate",
+   "moxifloxacin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.899,
+  "a": "iphytoral",
+  "b": "phytoral",
+  "a_ing": [
+   "itraconazole"
+  ],
+  "b_ing": [
+   "beclometasone",
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.898,
+  "a": "fungdid",
+  "b": "fungid",
+  "a_ing": [
+   "beclometasone",
+   "clotrimazole"
+  ],
+  "b_ing": [
+   "fluconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.897,
+  "a": "lmwx",
+  "b": "lmx",
+  "a_ing": [
+   "enoxaparin"
+  ],
+  "b_ing": [
+   "amoxycillin",
+   "clavulanic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.892,
+  "a": "duoclin",
+  "b": "dufklin",
+  "a_ing": [
+   "benzoyl peroxide",
+   "clindamycin"
+  ],
+  "b_ing": [
+   "cetrimide",
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.88,
+  "a": "minicycline",
+  "b": "minocycline",
+  "a_ing": [
+   "doxycycline"
+  ],
+  "b_ing": [
+   "minocycline"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.877,
+  "a": "meflotas",
+  "b": "mflotas",
+  "a_ing": [
+   "mefloquine"
+  ],
+  "b_ing": [
+   "loteprednol etabonate",
+   "moxifloxacin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.873,
+  "a": "vasfree",
+  "b": "wakfree",
+  "a_ing": [
+   "flupirtine"
+  ],
+  "b_ing": [
+   "diacerein",
+   "glucosamine",
+   "methyl sulfonyl methane"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.872,
+  "a": "prednol",
+  "b": "predsol",
+  "a_ing": [
+   "loteprednol etabonate"
+  ],
+  "b_ing": [
+   "prednisolone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.87,
+  "a": "gflotas",
+  "b": "oflotas",
+  "a_ing": [
+   "dexamethasone",
+   "gatifloxacin"
+  ],
+  "b_ing": [
+   "ofloxacin",
+   "ornidazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.869,
+  "a": "mflotas",
+  "b": "oflotas",
+  "a_ing": [
+   "loteprednol etabonate",
+   "moxifloxacin"
+  ],
+  "b_ing": [
+   "ofloxacin",
+   "ornidazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.864,
+  "a": "oframax",
+  "b": "soframax",
+  "a_ing": [
+   "ceftriaxone",
+   "sulbactam"
+  ],
+  "b_ing": [
+   "neomycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.861,
+  "a": "esogress",
+  "b": "escigress",
+  "a_ing": [
+   "domperidone",
+   "esomeprazole",
+   "levosulpiride"
+  ],
+  "b_ing": [
+   "escitalopram oxalate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.861,
+  "a": "fourderm",
+  "b": "fuderm",
+  "a_ing": [
+   "chlorhexidine gluconate",
+   "clobetasol",
+   "miconazole",
+   "neomycin"
+  ],
+  "b_ing": [
+   "fusidic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.859,
+  "a": "hydrogen",
+  "b": "hydrogem",
+  "a_ing": [
+   "hydrogen peroxide"
+  ],
+  "b_ing": [
+   "hydroxyurea"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.859,
+  "a": "glupride",
+  "b": "lupride",
+  "a_ing": [
+   "glimepiride",
+   "metformin"
+  ],
+  "b_ing": [
+   "leuprolide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.858,
+  "a": "darilong",
+  "b": "dabilong",
+  "a_ing": [
+   "darifenacin"
+  ],
+  "b_ing": [
+   "dabigatran etexilate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.858,
+  "a": "allrite",
+  "b": "allyte",
+  "a_ing": [
+   "levocetirizine",
+   "phenylephrine"
+  ],
+  "b_ing": [
+   "clindamycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.858,
+  "a": "bigspas",
+  "b": "biospas",
+  "a_ing": [
+   "camylofin",
+   "paracetamol"
+  ],
+  "b_ing": [
+   "dicyclomine",
+   "mefenamic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.857,
+  "a": "etogesic",
+  "b": "otogesic",
+  "a_ing": [
+   "etodolac",
+   "thiocolchicoside",
+   "tolperisone"
+  ],
+  "b_ing": [
+   "dibucaine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.855,
+  "a": "gabamax",
+  "b": "gabapax",
+  "a_ing": [
+   "benfotiamine",
+   "folic acid",
+   "methylcobalamin",
+   "nortriptyline",
+   "pregabalin",
+   "vitamin b"
+  ],
+  "b_ing": [
+   "gabapentin",
+   "lidocaine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.855,
+  "a": "recopress",
+  "b": "renopress",
+  "a_ing": [
+   "disulfiram"
+  ],
+  "b_ing": [
+   "prazosin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.854,
+  "a": "alsartan",
+  "b": "valsartan",
+  "a_ing": [
+   "amlodipine",
+   "hydrochlorothiazide",
+   "losartan"
+  ],
+  "b_ing": [
+   "valsartan"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.854,
+  "a": "laxitol",
+  "b": "laxito",
+  "a_ing": [
+   "ispaghula",
+   "lactitol"
+  ],
+  "b_ing": [
+   "liquid paraffin",
+   "milk of magnesia",
+   "sodium picosulfate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.853,
+  "a": "eflora",
+  "b": "reflora",
+  "a_ing": [
+   "eflornithine"
+  ],
+  "b_ing": [
+   "lactobacillus",
+   "racecadotril",
+   "saccharomyces boulardii"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.852,
+  "a": "safecet",
+  "b": "saferet",
+  "a_ing": [
+   "levocetirizine"
+  ],
+  "b_ing": [
+   "isotretinoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.851,
+  "a": "acnedap",
+  "b": "acnecap",
+  "a_ing": [
+   "adapalene",
+   "dapsone"
+  ],
+  "b_ing": [
+   "clindamycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.849,
+  "a": "tricium",
+  "b": "trimium",
+  "a_ing": [
+   "teriparatide"
+  ],
+  "b_ing": [
+   "ciclesonide",
+   "formoterol",
+   "tiotropium"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.846,
+  "a": "lubry",
+  "b": "luby",
+  "a_ing": [
+   "diacerein",
+   "glucosamine",
+   "methyl sulfonyl methane"
+  ],
+  "b_ing": [
+   "carboxymethylcellulose"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.846,
+  "a": "noworm",
+  "b": "novonorm",
+  "a_ing": [
+   "albendazole"
+  ],
+  "b_ing": [
+   "repaglinide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.846,
+  "a": "sepgard",
+  "b": "seizgard",
+  "a_ing": [
+   "centbucridine",
+   "feracrylum"
+  ],
+  "b_ing": [
+   "lacosamide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.844,
+  "a": "lozapin",
+  "b": "ozapin",
+  "a_ing": [
+   "clozapine"
+  ],
+  "b_ing": [
+   "olanzapine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.843,
+  "a": "optimoz",
+  "b": "optimol",
+  "a_ing": [
+   "d chiro inositol",
+   "l methyl folate calcium",
+   "metformin",
+   "methylcobalamin",
+   "myo inositol"
+  ],
+  "b_ing": [
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.843,
+  "a": "alfakit",
+  "b": "alfakim",
+  "a_ing": [
+   "alpha ketoanalogue"
+  ],
+  "b_ing": [
+   "amikacin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.842,
+  "a": "seriva",
+  "b": "sertiva",
+  "a_ing": [
+   "sertaconazole"
+  ],
+  "b_ing": [
+   "nortriptyline",
+   "pregabalin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.842,
+  "a": "metromax",
+  "b": "netromax",
+  "a_ing": [
+   "amlodipine",
+   "metoprolol succinate"
+  ],
+  "b_ing": [
+   "netilmicin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.842,
+  "a": "oosure",
+  "b": "sure",
+  "a_ing": [
+   "l methyl folate",
+   "metformin",
+   "methylcobalamin mecobalamin",
+   "myo inositol"
+  ],
+  "b_ing": [
+   "rabies vaccine human"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.84,
+  "a": "anozest",
+  "b": "ranozest",
+  "a_ing": [
+   "lidocaine",
+   "nifedipine"
+  ],
+  "b_ing": [
+   "ranolazine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.839,
+  "a": "zeet",
+  "b": "zit",
+  "a_ing": [
+   "ammonium chloride",
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide",
+   "diphenhydramine",
+   "phenylephrine",
+   "sodium citrate"
+  ],
+  "b_ing": [
+   "isotretinoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.839,
+  "a": "oropraz",
+  "b": "ropraz",
+  "a_ing": [
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "domperidone",
+   "rabeprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.838,
+  "a": "diapride",
+  "b": "tiapride",
+  "a_ing": [
+   "glimepiride",
+   "metformin",
+   "voglibose"
+  ],
+  "b_ing": [
+   "tiapride"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.837,
+  "a": "melanorm",
+  "b": "mefanorm",
+  "a_ing": [
+   "fluocinolone acetonide",
+   "hydrocortisone",
+   "hydroquinone",
+   "mometasone",
+   "tretinoin"
+  ],
+  "b_ing": [
+   "mefenamic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.835,
+  "a": "pilomax",
+  "b": "pynomax",
+  "a_ing": [
+   "pilocarpine"
+  ],
+  "b_ing": [
+   "tranexamic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.835,
+  "a": "lacom",
+  "b": "lacoma",
+  "a_ing": [
+   "amoxycillin",
+   "clavulanic acid"
+  ],
+  "b_ing": [
+   "latanoprost",
+   "timolol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.834,
+  "a": "linox",
+  "b": "lignox",
+  "a_ing": [
+   "linezolid"
+  ],
+  "b_ing": [
+   "adrenaline",
+   "lidocaine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.834,
+  "a": "acimol",
+  "b": "pacimol",
+  "a_ing": [
+   "aceclofenac",
+   "chlorzoxazone",
+   "paracetamol",
+   "serratiopeptidase"
+  ],
+  "b_ing": [
+   "caffeine",
+   "mefenamic acid",
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.832,
+  "a": "soft",
+  "b": "softee",
+  "a_ing": [
+   "carboxymethylcellulose"
+  ],
+  "b_ing": [
+   "lidocaine",
+   "metronidazole",
+   "sucralfate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.832,
+  "a": "endofit",
+  "b": "endofil",
+  "a_ing": [
+   "dienogest"
+  ],
+  "b_ing": [
+   "tadalafil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.831,
+  "a": "lupi",
+  "b": "lupin",
+  "a_ing": [
+   "human chorionic gonadotropin",
+   "menotrophin",
+   "urofollitropin"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "bepotastine",
+   "mirabegron",
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.831,
+  "a": "heparid",
+  "b": "heparin",
+  "a_ing": [
+   "silymarin"
+  ],
+  "b_ing": [
+   "heparin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.83,
+  "a": "genteal",
+  "b": "gental",
+  "a_ing": [
+   "hydroxypropylmethylcellulose"
+  ],
+  "b_ing": [
+   "gentamicin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.829,
+  "a": "avoprost",
+  "b": "travoprost",
+  "a_ing": [
+   "dutasteride",
+   "silodosin"
+  ],
+  "b_ing": [
+   "travoprost"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.829,
+  "a": "fzhh",
+  "b": "fmh",
+  "a_ing": [
+   "fluconazole"
+  ],
+  "b_ing": [
+   "clobetasol",
+   "salicylic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.828,
+  "a": "pentab",
+  "b": "penrab",
+  "a_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "rabeprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.828,
+  "a": "hhzole",
+  "b": "rzole",
+  "a_ing": [
+   "clotrimazole",
+   "mometasone"
+  ],
+  "b_ing": [
+   "domperidone",
+   "rabeprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.828,
+  "a": "mycoderm",
+  "b": "mixderm",
+  "a_ing": [
+   "clotrimazole",
+   "miconazole",
+   "mometasone",
+   "nadifloxacin"
+  ],
+  "b_ing": [
+   "clobetasol",
+   "clotrimazole",
+   "neomycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.827,
+  "a": "etozox",
+  "b": "metozox",
+  "a_ing": [
+   "etoricoxib"
+  ],
+  "b_ing": [
+   "metoprolol succinate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.826,
+  "a": "romilast",
+  "b": "vomilast",
+  "a_ing": [
+   "bambuterol",
+   "bilastine",
+   "fexofenadine",
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "doxylamine",
+   "folic acid",
+   "vitamin b"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.826,
+  "a": "panex",
+  "b": "pantex",
+  "a_ing": [
+   "paroxetine"
+  ],
+  "b_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.826,
+  "a": "ketorol",
+  "b": "ketonol",
+  "a_ing": [
+   "ketorolac"
+  ],
+  "b_ing": [
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.826,
+  "a": "oxepin",
+  "b": "doxepin",
+  "a_ing": [
+   "oxcarbazepine"
+  ],
+  "b_ing": [
+   "doxepin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.825,
+  "a": "epirate",
+  "b": "epitrate",
+  "a_ing": [
+   "sodium valproate",
+   "valproic acid"
+  ],
+  "b_ing": [
+   "adrenaline",
+   "sodium metabisulphite"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.824,
+  "a": "eticort",
+  "b": "efficort",
+  "a_ing": [
+   "deflazacort"
+  ],
+  "b_ing": [
+   "hydrocortisone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.823,
+  "a": "levomac",
+  "b": "levotac",
+  "a_ing": [
+   "levofloxacin",
+   "ornidazole"
+  ],
+  "b_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.823,
+  "a": "megacid",
+  "b": "megabid",
+  "a_ing": [
+   "magaldrate",
+   "simethicone"
+  ],
+  "b_ing": [
+   "methylcobalamin",
+   "pregabalin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.823,
+  "a": "olox",
+  "b": "olzox",
+  "a_ing": [
+   "ofloxacin",
+   "ornidazole"
+  ],
+  "b_ing": [
+   "olmesartan medoxomil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.822,
+  "a": "luliderm",
+  "b": "lutiderm",
+  "a_ing": [
+   "luliconazole"
+  ],
+  "b_ing": [
+   "fluticasone propionate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.821,
+  "a": "ranogard",
+  "b": "renogard",
+  "a_ing": [
+   "ranolazine"
+  ],
+  "b_ing": [
+   "alpha ketoanalogue"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.821,
+  "a": "optidoz",
+  "b": "optimoz",
+  "a_ing": [
+   "amlodipine",
+   "hydrochlorothiazide",
+   "telmisartan"
+  ],
+  "b_ing": [
+   "d chiro inositol",
+   "l methyl folate calcium",
+   "metformin",
+   "methylcobalamin",
+   "myo inositol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.82,
+  "a": "hepakind",
+  "b": "herpikind",
+  "a_ing": [
+   "ursodeoxycholic acid"
+  ],
+  "b_ing": [
+   "acyclovir"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.82,
+  "a": "melamet",
+  "b": "melmet",
+  "a_ing": [
+   "hydroquinone",
+   "mometasone",
+   "tretinoin"
+  ],
+  "b_ing": [
+   "metformin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.819,
+  "a": "panthol",
+  "b": "panto",
+  "a_ing": [
+   "d panthenol"
+  ],
+  "b_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.818,
+  "a": "sterio",
+  "b": "steri",
+  "a_ing": [
+   "methylprednisolone"
+  ],
+  "b_ing": [
+   "benzydamine",
+   "chlorhexidine gluconate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.817,
+  "a": "stafcure",
+  "b": "statpure",
+  "a_ing": [
+   "cefuroxime",
+   "clavulanic acid"
+  ],
+  "b_ing": [
+   "rosuvastatin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.817,
+  "a": "neurovin",
+  "b": "neuromin",
+  "a_ing": [
+   "vinpocetine"
+  ],
+  "b_ing": [
+   "methylcobalamin",
+   "piracetam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.817,
+  "a": "rizole",
+  "b": "rivizole",
+  "a_ing": [
+   "clotrimazole"
+  ],
+  "b_ing": [
+   "fluocinolone acetonide",
+   "miconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.816,
+  "a": "chymoflam",
+  "b": "zymoflam",
+  "a_ing": [
+   "diclofenac",
+   "paracetamol",
+   "trypsin chymotrypsin"
+  ],
+  "b_ing": [
+   "bromelain",
+   "diclofenac",
+   "rutoside",
+   "trypsin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.816,
+  "a": "tricaine",
+  "b": "trigaine",
+  "a_ing": [
+   "almagate",
+   "aluminium hydroxide",
+   "magnesium",
+   "oxetacaine",
+   "simethicone",
+   "sucralfate"
+  ],
+  "b_ing": [
+   "azelaic acid",
+   "hydrocortisone",
+   "minoxidil",
+   "tretinoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.815,
+  "a": "linokem",
+  "b": "minokem",
+  "a_ing": [
+   "linezolid"
+  ],
+  "b_ing": [
+   "azelaic acid",
+   "minoxidil",
+   "tretinoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.815,
+  "a": "aricep",
+  "b": "arzep",
+  "a_ing": [
+   "donepezil",
+   "memantine"
+  ],
+  "b_ing": [
+   "azelastine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.815,
+  "a": "eliwel",
+  "b": "elidel",
+  "a_ing": [
+   "amitriptyline"
+  ],
+  "b_ing": [
+   "pimecrolimus"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.814,
+  "a": "belina",
+  "b": "elina",
+  "a_ing": [
+   "glycolic acid",
+   "hydroquinone",
+   "kojic acid",
+   "lactic acid",
+   "sodium hyaluronate"
+  ],
+  "b_ing": [
+   "mizolastine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.813,
+  "a": "rzole",
+  "b": "rizole",
+  "a_ing": [
+   "domperidone",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "clotrimazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.812,
+  "a": "nazomac",
+  "b": "tazomac",
+  "a_ing": [
+   "azelastine",
+   "fluticasone propionate",
+   "mometasone"
+  ],
+  "b_ing": [
+   "piperacillin",
+   "tazobactum"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.812,
+  "a": "rzole",
+  "b": "zole",
+  "a_ing": [
+   "domperidone",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "fluocinolone acetonide",
+   "itraconazole",
+   "miconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.812,
+  "a": "hhzole",
+  "b": "zole",
+  "a_ing": [
+   "clotrimazole",
+   "mometasone"
+  ],
+  "b_ing": [
+   "fluocinolone acetonide",
+   "itraconazole",
+   "miconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.812,
+  "a": "hemolit",
+  "b": "hemocit",
+  "a_ing": [
+   "calcium dobesilate",
+   "hydrocortisone",
+   "lidocaine",
+   "phenylephrine",
+   "troxerutin",
+   "zinc oxide"
+  ],
+  "b_ing": [
+   "citicoline",
+   "piracetam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.812,
+  "a": "optimoist",
+  "b": "optihist",
+  "a_ing": [
+   "carboxymethylcellulose",
+   "oxychloro complex"
+  ],
+  "b_ing": [
+   "azelastine",
+   "boric acid",
+   "chlorpheniramine maleate",
+   "naphazoline",
+   "zinc sulphate monohydrate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.811,
+  "a": "albendazole",
+  "b": "mebendazole",
+  "a_ing": [
+   "albendazole"
+  ],
+  "b_ing": [
+   "mebendazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.81,
+  "a": "ralista",
+  "b": "salista",
+  "a_ing": [
+   "raloxifene"
+  ],
+  "b_ing": [
+   "clobetasol",
+   "salicylic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.81,
+  "a": "etorvel",
+  "b": "torvel",
+  "a_ing": [
+   "etoricoxib"
+  ],
+  "b_ing": [
+   "torasemide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.809,
+  "a": "lasma",
+  "b": "lashisma",
+  "a_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "bimatoprost"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.809,
+  "a": "etofine",
+  "b": "ketofine",
+  "a_ing": [
+   "etoricoxib",
+   "thiocolchicoside"
+  ],
+  "b_ing": [
+   "beclometasone",
+   "ketoconazole",
+   "zinc pyrithione"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.809,
+  "a": "migrest",
+  "b": "migest",
+  "a_ing": [
+   "flunarizine"
+  ],
+  "b_ing": [
+   "progesterone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.808,
+  "a": "aprezo",
+  "b": "apresol",
+  "a_ing": [
+   "apremilast"
+  ],
+  "b_ing": [
+   "hydralazine",
+   "isosorbide dinitrate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "meromac",
+  "b": "metomac",
+  "a_ing": [
+   "meropenem"
+  ],
+  "b_ing": [
+   "metoprolol succinate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "allyzole",
+  "b": "leezole",
+  "a_ing": [
+   "ketoconazole",
+   "zinc pyrithione"
+  ],
+  "b_ing": [
+   "clindamycin",
+   "clotrimazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "megahenz",
+  "b": "mesahenz",
+  "a_ing": [
+   "megestrol"
+  ],
+  "b_ing": [
+   "mesalazine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "anovate",
+  "b": "acnovate",
+  "a_ing": [
+   "beclometasone",
+   "lidocaine",
+   "phenylephrine"
+  ],
+  "b_ing": [
+   "adapalene",
+   "benzoyl peroxide",
+   "clindamycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "rolimus",
+  "b": "sirolimus",
+  "a_ing": [
+   "everolimus"
+  ],
+  "b_ing": [
+   "sirolimus"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "lorvas",
+  "b": "orvas",
+  "a_ing": [
+   "indapamide"
+  ],
+  "b_ing": [
+   "atorvastatin",
+   "ezetimibe",
+   "fenofibrate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.807,
+  "a": "dibeta",
+  "b": "mibeta",
+  "a_ing": [
+   "glibenclamide",
+   "metformin"
+  ],
+  "b_ing": [
+   "flunarizine",
+   "propranolol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.806,
+  "a": "bilazo",
+  "b": "jilazo",
+  "a_ing": [
+   "bilastine"
+  ],
+  "b_ing": [
+   "iron isomaltoside"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.806,
+  "a": "itriben",
+  "b": "triben",
+  "a_ing": [
+   "itraconazole"
+  ],
+  "b_ing": [
+   "beclometasone",
+   "clobetasol",
+   "clotrimazole",
+   "ketoconazole",
+   "neomycin",
+   "zinc pyrithione"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.805,
+  "a": "tripin",
+  "b": "trypsin",
+  "a_ing": [
+   "amlodipine",
+   "hydrochlorothiazide",
+   "olmesartan medoxomil"
+  ],
+  "b_ing": [
+   "trypsin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.805,
+  "a": "deys",
+  "b": "denis",
+  "a_ing": [
+   "milk of magnesia"
+  ],
+  "b_ing": [
+   "sodium chloride"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.805,
+  "a": "veloz",
+  "b": "welooz",
+  "a_ing": [
+   "domperidone",
+   "itopride",
+   "levosulpiride",
+   "mosapride",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "ispaghula",
+   "lactitol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.805,
+  "a": "osteri",
+  "b": "steri",
+  "a_ing": [
+   "teriparatide"
+  ],
+  "b_ing": [
+   "benzydamine",
+   "chlorhexidine gluconate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.804,
+  "a": "hylosoft",
+  "b": "hysoft",
+  "a_ing": [
+   "sodium hyaluronate"
+  ],
+  "b_ing": [
+   "hydrocortisone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.804,
+  "a": "hylogel",
+  "b": "hylowell",
+  "a_ing": [
+   "hyaluronic acid"
+  ],
+  "b_ing": [
+   "sodium hyaluronate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.804,
+  "a": "panto",
+  "b": "panthor",
+  "a_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide",
+   "guaifenesin",
+   "phenylephrine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.804,
+  "a": "moveran",
+  "b": "voveran",
+  "a_ing": [
+   "diclofenac diethylamine",
+   "menthol",
+   "methyl salicylate",
+   "oleum lini"
+  ],
+  "b_ing": [
+   "diclofenac",
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.804,
+  "a": "pinodin",
+  "b": "pinoin",
+  "a_ing": [
+   "l ascorbic acid",
+   "l glutathione reduced",
+   "polypodium leucotomos extract",
+   "proanthocyanidin",
+   "tranexamic acid"
+  ],
+  "b_ing": [
+   "isotretinoin",
+   "tretinoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.803,
+  "a": "avil",
+  "b": "avril",
+  "a_ing": [
+   "pheniramine"
+  ],
+  "b_ing": [
+   "chlorpheniramine maleate",
+   "phenylephrine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.803,
+  "a": "otocin",
+  "b": "tocin",
+  "a_ing": [
+   "acetic acid",
+   "benzocaine",
+   "chloramphenicol",
+   "dexamethasone",
+   "polymyxin b",
+   "prednisolone"
+  ],
+  "b_ing": [
+   "fluorometholone",
+   "tobramycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.801,
+  "a": "macgest",
+  "b": "maxogest",
+  "a_ing": [
+   "progesterone"
+  ],
+  "b_ing": [
+   "medroxyprogesterone acetate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.8,
+  "a": "panthol",
+  "b": "panthor",
+  "a_ing": [
+   "d panthenol"
+  ],
+  "b_ing": [
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide",
+   "guaifenesin",
+   "phenylephrine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.8,
+  "a": "urivron",
+  "b": "urijon",
+  "a_ing": [
+   "nitrofurantoin"
+  ],
+  "b_ing": [
+   "ursodeoxycholic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.799,
+  "a": "adilin",
+  "b": "adclin",
+  "a_ing": [
+   "isoxsuprine"
+  ],
+  "b_ing": [
+   "adapalene",
+   "clindamycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.799,
+  "a": "erophylline",
+  "b": "etofylline",
+  "a_ing": [
+   "acebrophylline"
+  ],
+  "b_ing": [
+   "etofylline"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.799,
+  "a": "roliten",
+  "b": "soliten",
+  "a_ing": [
+   "tolterodine"
+  ],
+  "b_ing": [
+   "solifenacin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.799,
+  "a": "altonil",
+  "b": "aldonil",
+  "a_ing": [
+   "melatonin"
+  ],
+  "b_ing": [
+   "epalrestat",
+   "methylcobalamin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.799,
+  "a": "goutnil",
+  "b": "gutfeel",
+  "a_ing": [
+   "colchicine"
+  ],
+  "b_ing": [
+   "ispaghula",
+   "lactitol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.799,
+  "a": "gtn",
+  "b": "gkn",
+  "a_ing": [
+   "nitroglycerin"
+  ],
+  "b_ing": [
+   "ginkgo biloba",
+   "piracetam",
+   "vinpocetine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.798,
+  "a": "iban",
+  "b": "tiban",
+  "a_ing": [
+   "ibandronic acid"
+  ],
+  "b_ing": [
+   "metformin",
+   "teneligliptin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.798,
+  "a": "tear",
+  "b": "tears",
+  "a_ing": [
+   "carboxymethylcellulose",
+   "oxychloro complex"
+  ],
+  "b_ing": [
+   "dextran",
+   "glycerin",
+   "hydroxypropylmethylcellulose"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.798,
+  "a": "zyrcold",
+  "b": "zincold",
+  "a_ing": [
+   "ambroxol",
+   "cetirizine"
+  ],
+  "b_ing": [
+   "chlorpheniramine maleate",
+   "paracetamol",
+   "phenylephrine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.798,
+  "a": "melnor",
+  "b": "meltor",
+  "a_ing": [
+   "hydroquinone",
+   "mometasone",
+   "tretinoin"
+  ],
+  "b_ing": [
+   "torasemide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.797,
+  "a": "escot",
+  "b": "eslot",
+  "a_ing": [
+   "lidocaine",
+   "nifedipine"
+  ],
+  "b_ing": [
+   "desloratadine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.797,
+  "a": "ecorab",
+  "b": "ecofab",
+  "a_ing": [
+   "domperidone",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "sodium hyaluronate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.797,
+  "a": "lupizol",
+  "b": "lupisoz",
+  "a_ing": [
+   "luliconazole",
+   "salicylic acid",
+   "zinc pyrithione"
+  ],
+  "b_ing": [
+   "domperidone",
+   "esomeprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.797,
+  "a": "acera",
+  "b": "acelera",
+  "a_ing": [
+   "domperidone",
+   "levosulpiride",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "paracetamol",
+   "thiocolchicoside"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.797,
+  "a": "sorvate",
+  "b": "torvate",
+  "a_ing": [
+   "calcitriol",
+   "clobetasol"
+  ],
+  "b_ing": [
+   "sodium valproate",
+   "valproic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.796,
+  "a": "jointace",
+  "b": "joyace",
+  "a_ing": [
+   "diacerein",
+   "glucosamine",
+   "methyl sulfonyl methane"
+  ],
+  "b_ing": [
+   "diclofenac diethylamine",
+   "linseed oil",
+   "menthol",
+   "methyl salicylate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.796,
+  "a": "sibofix",
+  "b": "simvofix",
+  "a_ing": [
+   "rifaximin"
+  ],
+  "b_ing": [
+   "simvastatin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.796,
+  "a": "flacort",
+  "b": "flucort",
+  "a_ing": [
+   "deflazacort"
+  ],
+  "b_ing": [
+   "fluocinolone acetonide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.795,
+  "a": "bilagra",
+  "b": "silagra",
+  "a_ing": [
+   "bilastine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "sildenafil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.795,
+  "a": "espra",
+  "b": "escipra",
+  "a_ing": [
+   "esomeprazole"
+  ],
+  "b_ing": [
+   "escitalopram oxalate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.794,
+  "a": "olan",
+  "b": "olvan",
+  "a_ing": [
+   "olanzapine"
+  ],
+  "b_ing": [
+   "chlorthalidone",
+   "cilnidipine",
+   "olmesartan medoxomil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.794,
+  "a": "gocan",
+  "b": "glocan",
+  "a_ing": [
+   "fluconazole"
+  ],
+  "b_ing": [
+   "clotrimazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.794,
+  "a": "acendol",
+  "b": "zendol",
+  "a_ing": [
+   "aceclofenac",
+   "rabeprazole"
+  ],
+  "b_ing": [
+   "danazol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.794,
+  "a": "reswas",
+  "b": "revas",
+  "a_ing": [
+   "ambroxol",
+   "chlorpheniramine maleate",
+   "guaifenesin",
+   "levodropropizine",
+   "levosalbutamol"
+  ],
+  "b_ing": [
+   "amlodipine",
+   "atenolol",
+   "hydrochlorothiazide",
+   "losartan"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.793,
+  "a": "monet",
+  "b": "mone",
+  "a_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "mometasone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.793,
+  "a": "propynate",
+  "b": "pronate",
+  "a_ing": [
+   "beclometasone"
+  ],
+  "b_ing": [
+   "propranolol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.793,
+  "a": "erophylline",
+  "b": "theophylline",
+  "a_ing": [
+   "acebrophylline"
+  ],
+  "b_ing": [
+   "theophylline"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.793,
+  "a": "xstan",
+  "b": "xtane",
+  "a_ing": [
+   "amlodipine",
+   "hydrochlorothiazide",
+   "telmisartan"
+  ],
+  "b_ing": [
+   "exemestane"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.793,
+  "a": "etofine",
+  "b": "etofylline",
+  "a_ing": [
+   "etoricoxib",
+   "thiocolchicoside"
+  ],
+  "b_ing": [
+   "etofylline"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.793,
+  "a": "moxiford",
+  "b": "moxiforce",
+  "a_ing": [
+   "moxifloxacin"
+  ],
+  "b_ing": [
+   "amoxycillin",
+   "clavulanic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.792,
+  "a": "orahex",
+  "b": "ornihex",
+  "a_ing": [
+   "octenidine"
+  ],
+  "b_ing": [
+   "chlorhexidine gluconate",
+   "ornidazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.792,
+  "a": "advan",
+  "b": "advacan",
+  "a_ing": [
+   "fluocinolone acetonide",
+   "hydroquinone",
+   "tretinoin"
+  ],
+  "b_ing": [
+   "everolimus"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.792,
+  "a": "tor",
+  "b": "torq",
+  "a_ing": [
+   "torasemide"
+  ],
+  "b_ing": [
+   "tolterodine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.791,
+  "a": "ursokem",
+  "b": "urikem",
+  "a_ing": [
+   "ursodeoxycholic acid"
+  ],
+  "b_ing": [
+   "magnesium citrate",
+   "potassium citrate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.791,
+  "a": "sertima",
+  "b": "sertiva",
+  "a_ing": [
+   "sertraline"
+  ],
+  "b_ing": [
+   "nortriptyline",
+   "pregabalin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.791,
+  "a": "imol",
+  "b": "timol",
+  "a_ing": [
+   "ibuprofen",
+   "paracetamol"
+  ],
+  "b_ing": [
+   "timolol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.79,
+  "a": "lantus",
+  "b": "lastuss",
+  "a_ing": [
+   "insulin glargine"
+  ],
+  "b_ing": [
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.79,
+  "a": "loprin",
+  "b": "loparin",
+  "a_ing": [
+   "aspirin"
+  ],
+  "b_ing": [
+   "enoxaparin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.789,
+  "a": "provate",
+  "b": "pronate",
+  "a_ing": [
+   "clobetasol",
+   "desoximetasone",
+   "salicylic acid"
+  ],
+  "b_ing": [
+   "propranolol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.789,
+  "a": "atorica",
+  "b": "etorica",
+  "a_ing": [
+   "atorvastatin",
+   "fenofibrate"
+  ],
+  "b_ing": [
+   "etoricoxib",
+   "thiocolchicoside"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.789,
+  "a": "keppra",
+  "b": "kera",
+  "a_ing": [
+   "levetiracetam"
+  ],
+  "b_ing": [
+   "minoxidil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.788,
+  "a": "varimax",
+  "b": "varivax",
+  "a_ing": [
+   "vardenafil"
+  ],
+  "b_ing": [
+   "varicella vaccine attenuated"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.788,
+  "a": "tribet",
+  "b": "triben",
+  "a_ing": [
+   "glimepiride",
+   "metformin",
+   "pioglitazone"
+  ],
+  "b_ing": [
+   "beclometasone",
+   "clobetasol",
+   "clotrimazole",
+   "ketoconazole",
+   "neomycin",
+   "zinc pyrithione"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.788,
+  "a": "isoin",
+  "b": "isomin",
+  "a_ing": [
+   "isotretinoin"
+  ],
+  "b_ing": [
+   "isosorbide mononitrate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.788,
+  "a": "isolin",
+  "b": "isoin",
+  "a_ing": [
+   "isoprenaline"
+  ],
+  "b_ing": [
+   "isotretinoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.788,
+  "a": "gflotas",
+  "b": "meflotas",
+  "a_ing": [
+   "dexamethasone",
+   "gatifloxacin"
+  ],
+  "b_ing": [
+   "mefloquine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.788,
+  "a": "abendol",
+  "b": "acendol",
+  "a_ing": [
+   "albendazole",
+   "ivermectin"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "rabeprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.787,
+  "a": "neurobion",
+  "b": "neurobid",
+  "a_ing": [
+   "methylcobalamin",
+   "nicotinamide",
+   "vitamin b"
+  ],
+  "b_ing": [
+   "methylcobalamin",
+   "nortriptyline",
+   "pregabalin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.787,
+  "a": "fenazol",
+  "b": "fenadol",
+  "a_ing": [
+   "fluconazole"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "drotaverine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.786,
+  "a": "mpx",
+  "b": "mnx",
+  "a_ing": [
+   "amoxycillin",
+   "clavulanic acid"
+  ],
+  "b_ing": [
+   "minoxidil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.786,
+  "a": "lupisoz",
+  "b": "lupifos",
+  "a_ing": [
+   "domperidone",
+   "esomeprazole"
+  ],
+  "b_ing": [
+   "fosfomycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.786,
+  "a": "montas",
+  "b": "momtas",
+  "a_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "mometasone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.785,
+  "a": "betadine",
+  "b": "betamine",
+  "a_ing": [
+   "povidone iodine"
+  ],
+  "b_ing": [
+   "betamethasone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.785,
+  "a": "persol",
+  "b": "persil",
+  "a_ing": [
+   "adapalene",
+   "benzoyl peroxide"
+  ],
+  "b_ing": [
+   "boric acid",
+   "chlorpheniramine maleate",
+   "methylcellulose",
+   "naphazoline",
+   "zinc sulfate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.785,
+  "a": "ethislone",
+  "b": "ethione",
+  "a_ing": [
+   "methylprednisolone"
+  ],
+  "b_ing": [
+   "norethisterone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.785,
+  "a": "muciday",
+  "b": "mucidal",
+  "a_ing": [
+   "acebrophylline",
+   "montelukast"
+  ],
+  "b_ing": [
+   "mupirocin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.784,
+  "a": "alfoo",
+  "b": "alfa",
+  "a_ing": [
+   "alfuzosin"
+  ],
+  "b_ing": [
+   "alpha glycerylphosphorylcholine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.784,
+  "a": "signoflam",
+  "b": "zymoflam",
+  "a_ing": [
+   "aceclofenac",
+   "paracetamol",
+   "serratiopeptidase",
+   "thiocolchicoside"
+  ],
+  "b_ing": [
+   "bromelain",
+   "diclofenac",
+   "rutoside",
+   "trypsin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.784,
+  "a": "glevo",
+  "b": "hhlevo",
+  "a_ing": [
+   "levofloxacin"
+  ],
+  "b_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.784,
+  "a": "formin",
+  "b": "wormin",
+  "a_ing": [
+   "glimepiride",
+   "metformin",
+   "methylcobalamin",
+   "pioglitazone"
+  ],
+  "b_ing": [
+   "mebendazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.783,
+  "a": "ibgliptin",
+  "b": "nugliptin",
+  "a_ing": [
+   "teneligliptin"
+  ],
+  "b_ing": [
+   "metformin",
+   "vildagliptin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.783,
+  "a": "iobet",
+  "b": "lobet",
+  "a_ing": [
+   "betaxolol"
+  ],
+  "b_ing": [
+   "labetalol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.783,
+  "a": "ibugesic",
+  "b": "ugesic",
+  "a_ing": [
+   "aceclofenac",
+   "paracetamol",
+   "serratiopeptidase"
+  ],
+  "b_ing": [
+   "piroxicam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.783,
+  "a": "azapure",
+  "b": "adapure",
+  "a_ing": [
+   "azathioprine"
+  ],
+  "b_ing": [
+   "adapalene",
+   "benzoyl peroxide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.782,
+  "a": "alerfix",
+  "b": "alenix",
+  "a_ing": [
+   "ambroxol",
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "desloratadine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.782,
+  "a": "zoform",
+  "b": "zovorm",
+  "a_ing": [
+   "metformin"
+  ],
+  "b_ing": [
+   "levamisole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.782,
+  "a": "tadasure",
+  "b": "tafsure",
+  "a_ing": [
+   "tadalafil"
+  ],
+  "b_ing": [
+   "tenofovir alafenamide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.782,
+  "a": "pari",
+  "b": "parit",
+  "a_ing": [
+   "paroxetine"
+  ],
+  "b_ing": [
+   "domperidone",
+   "rabeprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.782,
+  "a": "olkem",
+  "b": "tolkem",
+  "a_ing": [
+   "amlodipine",
+   "chlorthalidone",
+   "cilnidipine",
+   "hydrochlorothiazide",
+   "metoprolol succinate",
+   "olmesartan medoxomil"
+  ],
+  "b_ing": [
+   "diclofenac",
+   "tolperisone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.782,
+  "a": "monadine",
+  "b": "monazine",
+  "a_ing": [
+   "fexofenadine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "fluphenazine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.781,
+  "a": "glz",
+  "b": "glez",
+  "a_ing": [
+   "gliclazide",
+   "metformin",
+   "pioglitazone"
+  ],
+  "b_ing": [
+   "glipizide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.781,
+  "a": "acnex",
+  "b": "acnox",
+  "a_ing": [
+   "isotretinoin"
+  ],
+  "b_ing": [
+   "triclosan"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.78,
+  "a": "zenegra",
+  "b": "zelgra",
+  "a_ing": [
+   "lidocaine",
+   "sildenafil"
+  ],
+  "b_ing": [
+   "fexofenadine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.78,
+  "a": "loratin",
+  "b": "lofatin",
+  "a_ing": [
+   "loratadine"
+  ],
+  "b_ing": [
+   "luliconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.78,
+  "a": "gudgesic",
+  "b": "ugesic",
+  "a_ing": [
+   "aceclofenac",
+   "thiocolchicoside"
+  ],
+  "b_ing": [
+   "piroxicam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.779,
+  "a": "hmet",
+  "b": "met",
+  "a_ing": [
+   "glimepiride",
+   "metformin",
+   "voglibose"
+  ],
+  "b_ing": [
+   "amlodipine",
+   "d chiro inositol",
+   "hydrochlorothiazide",
+   "l methyl folate calcium",
+   "metformin",
+   "methylcobalamin",
+   "metoprolol succinate",
+   "myo inositol",
+   "ramipril"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.779,
+  "a": "sinate",
+  "b": "zyonate",
+  "a_ing": [
+   "doxylamine",
+   "folic acid",
+   "vitamin b"
+  ],
+  "b_ing": [
+   "hyaluronic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.779,
+  "a": "scabex",
+  "b": "scalnex",
+  "a_ing": [
+   "cetrimide",
+   "lindane"
+  ],
+  "b_ing": [
+   "beclometasone",
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.779,
+  "a": "pantop",
+  "b": "rantop",
+  "a_ing": [
+   "aluminium hydroxide",
+   "amoxycillin",
+   "clarithromycin",
+   "dimethicone",
+   "domperidone",
+   "itopride",
+   "levosulpiride",
+   "milk of magnesia",
+   "mosapride",
+   "pantoprazole",
+   "sorbitol"
+  ],
+  "b_ing": [
+   "ranitidine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.778,
+  "a": "xygrel",
+  "b": "xrel",
+  "a_ing": [
+   "ticagrelor"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.778,
+  "a": "orogard",
+  "b": "ostogard",
+  "a_ing": [
+   "choline salicylate",
+   "clotrimazole",
+   "lidocaine"
+  ],
+  "b_ing": [
+   "diacerein",
+   "glucosamine",
+   "methyl sulfonyl methane"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.778,
+  "a": "supacef",
+  "b": "sulbacef",
+  "a_ing": [
+   "cefuroxime"
+  ],
+  "b_ing": [
+   "cefoperazone",
+   "sulbactam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.778,
+  "a": "optimoist",
+  "b": "optimoz",
+  "a_ing": [
+   "carboxymethylcellulose",
+   "oxychloro complex"
+  ],
+  "b_ing": [
+   "d chiro inositol",
+   "l methyl folate calcium",
+   "metformin",
+   "methylcobalamin",
+   "myo inositol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.778,
+  "a": "eutropin",
+  "b": "tropin",
+  "a_ing": [
+   "somatropin"
+  ],
+  "b_ing": [
+   "atropine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.777,
+  "a": "endobloc",
+  "b": "endonok",
+  "a_ing": [
+   "ambrisentan",
+   "tadalafil"
+  ],
+  "b_ing": [
+   "dienogest"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.777,
+  "a": "ticavic",
+  "b": "ticarnic",
+  "a_ing": [
+   "ticagrelor"
+  ],
+  "b_ing": [
+   "clavulanic acid",
+   "ticarcillin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.777,
+  "a": "irban",
+  "b": "iban",
+  "a_ing": [
+   "ivabradine"
+  ],
+  "b_ing": [
+   "ibandronic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.777,
+  "a": "endace",
+  "b": "endyze",
+  "a_ing": [
+   "megestrol"
+  ],
+  "b_ing": [
+   "dimethicone",
+   "pancreatin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.777,
+  "a": "dersil",
+  "b": "dersol",
+  "a_ing": [
+   "ketoconazole"
+  ],
+  "b_ing": [
+   "salicylic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.777,
+  "a": "apxenta",
+  "b": "exenta",
+  "a_ing": [
+   "apremilast"
+  ],
+  "b_ing": [
+   "eplerenone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.776,
+  "a": "athzol",
+  "b": "atol",
+  "a_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "amlodipine",
+   "atenolol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.776,
+  "a": "etan",
+  "b": "tetan",
+  "a_ing": [
+   "clobetasol",
+   "gentamicin"
+  ],
+  "b_ing": [
+   "amlodipine",
+   "chlorthalidone",
+   "hydrochlorothiazide",
+   "metoprolol succinate",
+   "telmisartan"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.776,
+  "a": "tropan",
+  "b": "tropac",
+  "a_ing": [
+   "oxybutynin"
+  ],
+  "b_ing": [
+   "tropicamide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.776,
+  "a": "neo",
+  "b": "neos",
+  "a_ing": [
+   "amoxycillin",
+   "carbimazole",
+   "clarithromycin",
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "neomycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.776,
+  "a": "divalprid",
+  "b": "valprid",
+  "a_ing": [
+   "divalproex"
+  ],
+  "b_ing": [
+   "sodium valproate",
+   "valproic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "pantafol",
+  "b": "panthol",
+  "a_ing": [
+   "domperidone",
+   "levosulpiride",
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "d panthenol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "ibitra",
+  "b": "ibithral",
+  "a_ing": [
+   "itraconazole"
+  ],
+  "b_ing": [
+   "azithromycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "salista",
+  "b": "salisia",
+  "a_ing": [
+   "clobetasol",
+   "salicylic acid"
+  ],
+  "b_ing": [
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "alevo",
+  "b": "hhlevo",
+  "a_ing": [
+   "levofloxacin"
+  ],
+  "b_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "inzit",
+  "b": "tinzit",
+  "a_ing": [
+   "benidipine"
+  ],
+  "b_ing": [
+   "ginkgo biloba",
+   "piracetam",
+   "vinpocetine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "olet",
+  "b": "olbet",
+  "a_ing": [
+   "olanzapine"
+  ],
+  "b_ing": [
+   "olmesartan medoxomil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.775,
+  "a": "laxit",
+  "b": "laxil",
+  "a_ing": [
+   "liquid paraffin",
+   "milk of magnesia",
+   "sodium picosulfate"
+  ],
+  "b_ing": [
+   "lactulose"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.774,
+  "a": "lycor",
+  "b": "limcor",
+  "a_ing": [
+   "hydrocortisone"
+  ],
+  "b_ing": [
+   "vitamin c"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.774,
+  "a": "hypersol",
+  "b": "persol",
+  "a_ing": [
+   "phenyl mercuric nitrate",
+   "sodium chloride"
+  ],
+  "b_ing": [
+   "adapalene",
+   "benzoyl peroxide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.774,
+  "a": "norflokem",
+  "b": "oflokem",
+  "a_ing": [
+   "norfloxacin",
+   "tinidazole"
+  ],
+  "b_ing": [
+   "dexamethasone",
+   "ofloxacin",
+   "ornidazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.773,
+  "a": "lanol",
+  "b": "lanzol",
+  "a_ing": [
+   "paracetamol"
+  ],
+  "b_ing": [
+   "lansoprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.773,
+  "a": "lorfast",
+  "b": "lotefast",
+  "a_ing": [
+   "ambroxol",
+   "guaifenesin",
+   "levocetirizine",
+   "loratadine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "loteprednol etabonate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.773,
+  "a": "xet",
+  "b": "xmet",
+  "a_ing": [
+   "paroxetine"
+  ],
+  "b_ing": [
+   "glimepiride",
+   "metformin",
+   "voglibose"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.773,
+  "a": "histo",
+  "b": "hista",
+  "a_ing": [
+   "aloe vera",
+   "calamine",
+   "camphor",
+   "diphenhydramine",
+   "glycerin"
+  ],
+  "b_ing": [
+   "fexofenadine",
+   "montelukast"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.772,
+  "a": "afderm",
+  "b": "hhderm",
+  "a_ing": [
+   "miconazole",
+   "mometasone",
+   "nadifloxacin"
+  ],
+  "b_ing": [
+   "clotrimazole",
+   "fusidic acid",
+   "mometasone"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.772,
+  "a": "prelid",
+  "b": "prelin",
+  "a_ing": [
+   "methylprednisolone"
+  ],
+  "b_ing": [
+   "methylcobalamin",
+   "pregabalin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.772,
+  "a": "dimol",
+  "b": "imol",
+  "a_ing": [
+   "dimethicone"
+  ],
+  "b_ing": [
+   "ibuprofen",
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.772,
+  "a": "niosol",
+  "b": "nizol",
+  "a_ing": [
+   "clobetasol",
+   "fusidic acid"
+  ],
+  "b_ing": [
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.772,
+  "a": "kinpride",
+  "b": "quinpride",
+  "a_ing": [
+   "cinitapride"
+  ],
+  "b_ing": [
+   "amisulpride"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.772,
+  "a": "digecaine",
+  "b": "dibucaine",
+  "a_ing": [
+   "aluminium hydroxide",
+   "magnesium",
+   "oxetacaine",
+   "simethicone"
+  ],
+  "b_ing": [
+   "dibucaine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.771,
+  "a": "menabol",
+  "b": "metabol",
+  "a_ing": [
+   "stanozolol"
+  ],
+  "b_ing": [
+   "nandrolone decanoate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.771,
+  "a": "metopar",
+  "b": "metozaar",
+  "a_ing": [
+   "metoclopramide",
+   "paracetamol"
+  ],
+  "b_ing": [
+   "amlodipine",
+   "metoprolol succinate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.771,
+  "a": "azom",
+  "b": "pazom",
+  "a_ing": [
+   "aztreonam"
+  ],
+  "b_ing": [
+   "pantoprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.771,
+  "a": "zyncet",
+  "b": "zipcet",
+  "a_ing": [
+   "cetirizine"
+  ],
+  "b_ing": [
+   "levocetirizine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.771,
+  "a": "ketoflam",
+  "b": "ketofly",
+  "a_ing": [
+   "flupirtine",
+   "paracetamol",
+   "thiocolchicoside"
+  ],
+  "b_ing": [
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.771,
+  "a": "endace",
+  "b": "enace",
+  "a_ing": [
+   "megestrol"
+  ],
+  "b_ing": [
+   "enalapril",
+   "hydrochlorothiazide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "linox",
+  "b": "lindox",
+  "a_ing": [
+   "linezolid"
+  ],
+  "b_ing": [
+   "doxycycline",
+   "lactobacillus"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "dinace",
+  "b": "edinase",
+  "a_ing": [
+   "procyclidine"
+  ],
+  "b_ing": [
+   "bromelain",
+   "diclofenac",
+   "rutoside",
+   "trypsin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "lipicure",
+  "b": "leepure",
+  "a_ing": [
+   "aspirin",
+   "atorvastatin",
+   "clopidogrel",
+   "fenofibrate"
+  ],
+  "b_ing": [
+   "folic acid",
+   "l ornithine l aspartate",
+   "metadoxine",
+   "silymarin",
+   "vitamin b"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "pilo",
+  "b": "pilot",
+  "a_ing": [
+   "beclometasone",
+   "lidocaine",
+   "phenylephrine"
+  ],
+  "b_ing": [
+   "fexofenadine",
+   "montelukast"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "diprobate",
+  "b": "diprate",
+  "a_ing": [
+   "betamethasone",
+   "salicylic acid",
+   "zinc oxide"
+  ],
+  "b_ing": [
+   "divalproex"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "afenak",
+  "b": "effenac",
+  "a_ing": [
+   "aceclofenac",
+   "paracetamol",
+   "serratiopeptidase"
+  ],
+  "b_ing": [
+   "acebrophylline",
+   "acetylcysteine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "dilcontin",
+  "b": "dilantin",
+  "a_ing": [
+   "diltiazem"
+  ],
+  "b_ing": [
+   "phenytoin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.77,
+  "a": "amodep",
+  "b": "pramodep",
+  "a_ing": [
+   "amlodipine",
+   "hydrochlorothiazide",
+   "telmisartan"
+  ],
+  "b_ing": [
+   "opipramol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.769,
+  "a": "sudin",
+  "b": "sudif",
+  "a_ing": [
+   "caffeine",
+   "dextromethorphan hydrobromide",
+   "diphenhydramine",
+   "paracetamol",
+   "phenylephrine"
+  ],
+  "b_ing": [
+   "fusidic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.769,
+  "a": "ketoneph",
+  "b": "ketonex",
+  "a_ing": [
+   "alpha ketoanalogue"
+  ],
+  "b_ing": [
+   "ketoconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.769,
+  "a": "orex",
+  "b": "torex",
+  "a_ing": [
+   "choline salicylate",
+   "lidocaine",
+   "tannic acid"
+  ],
+  "b_ing": [
+   "ammonium chloride",
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide",
+   "diphenhydramine",
+   "phenylephrine",
+   "sodium citrate",
+   "terpin hydrate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.769,
+  "a": "torex",
+  "b": "tossex",
+  "a_ing": [
+   "ammonium chloride",
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide",
+   "diphenhydramine",
+   "phenylephrine",
+   "sodium citrate",
+   "terpin hydrate"
+  ],
+  "b_ing": [
+   "ambroxol",
+   "chlorpheniramine maleate",
+   "dextromethorphan hydrobromide",
+   "guaifenesin",
+   "terbutaline"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.769,
+  "a": "vingose",
+  "b": "windose",
+  "a_ing": [
+   "metformin",
+   "voglibose"
+  ],
+  "b_ing": [
+   "kalmegh dry extract"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.769,
+  "a": "gestone",
+  "b": "gestodene",
+  "a_ing": [
+   "progesterone"
+  ],
+  "b_ing": [
+   "gestodene"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.768,
+  "a": "flucort",
+  "b": "fluticort",
+  "a_ing": [
+   "fluocinolone acetonide"
+  ],
+  "b_ing": [
+   "fluticasone propionate",
+   "formoterol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.768,
+  "a": "lovax",
+  "b": "zovax",
+  "a_ing": [
+   "oxcarbazepine"
+  ],
+  "b_ing": [
+   "amoxycillin",
+   "clavulanic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.768,
+  "a": "sizodon",
+  "b": "sizon",
+  "a_ing": [
+   "risperidone",
+   "trihexyphenidyl"
+  ],
+  "b_ing": [
+   "cetirizine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.768,
+  "a": "omecip",
+  "b": "olmecip",
+  "a_ing": [
+   "omeprazole"
+  ],
+  "b_ing": [
+   "amlodipine",
+   "hydrochlorothiazide",
+   "olmesartan medoxomil"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.768,
+  "a": "palido",
+  "b": "panido",
+  "a_ing": [
+   "paliperidone"
+  ],
+  "b_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.768,
+  "a": "drotin",
+  "b": "rotin",
+  "a_ing": [
+   "drotaverine"
+  ],
+  "b_ing": [
+   "fenofibrate",
+   "rosuvastatin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "eva",
+  "b": "meva",
+  "a_ing": [
+   "ispaghula",
+   "lactitol",
+   "liquid paraffin",
+   "milk of magnesia",
+   "sodium picosulfate"
+  ],
+  "b_ing": [
+   "mebeverine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "glytrin",
+  "b": "glycerin",
+  "a_ing": [
+   "teneligliptin"
+  ],
+  "b_ing": [
+   "glycerin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "bimat",
+  "b": "imat",
+  "a_ing": [
+   "bimatoprost",
+   "timolol"
+  ],
+  "b_ing": [
+   "imatinib mesylate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "tazpure",
+  "b": "tafsure",
+  "a_ing": [
+   "cilnidipine",
+   "telmisartan"
+  ],
+  "b_ing": [
+   "tenofovir alafenamide"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "zincast",
+  "b": "zencast",
+  "a_ing": [
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "paracetamol",
+   "serratiopeptidase"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "lumigan",
+  "b": "lumycan",
+  "a_ing": [
+   "bimatoprost"
+  ],
+  "b_ing": [
+   "luliconazole"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.767,
+  "a": "microcid",
+  "b": "microshield",
+  "a_ing": [
+   "indomethacin"
+  ],
+  "b_ing": [
+   "chlorhexidine gluconate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.766,
+  "a": "gravol",
+  "b": "gravidol",
+  "a_ing": [
+   "dimenhydrinate"
+  ],
+  "b_ing": [
+   "labetalol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.766,
+  "a": "metolar",
+  "b": "metopar",
+  "a_ing": [
+   "amlodipine",
+   "metoprolol succinate",
+   "metoprolol tartrate",
+   "telmisartan"
+  ],
+  "b_ing": [
+   "metoclopramide",
+   "paracetamol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.766,
+  "a": "xylocaine",
+  "b": "prilocaine",
+  "a_ing": [
+   "lidocaine"
+  ],
+  "b_ing": [
+   "prilocaine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.766,
+  "a": "trivedon",
+  "b": "trivon",
+  "a_ing": [
+   "trimetazidine"
+  ],
+  "b_ing": [
+   "tranylcypromine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.766,
+  "a": "percin",
+  "b": "persil",
+  "a_ing": [
+   "prulifloxacin"
+  ],
+  "b_ing": [
+   "boric acid",
+   "chlorpheniramine maleate",
+   "methylcellulose",
+   "naphazoline",
+   "zinc sulfate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.765,
+  "a": "erythrocin",
+  "b": "zithrocin",
+  "a_ing": [
+   "erythromycin"
+  ],
+  "b_ing": [
+   "azithromycin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.765,
+  "a": "urimax",
+  "b": "ursomax",
+  "a_ing": [
+   "dutasteride",
+   "finasteride",
+   "tamsulosin"
+  ],
+  "b_ing": [
+   "ursodeoxycholic acid"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.765,
+  "a": "neurokem",
+  "b": "neurocreme",
+  "a_ing": [
+   "alpha lipoic acid",
+   "folic acid",
+   "methylcobalamin",
+   "pregabalin",
+   "vitamin b"
+  ],
+  "b_ing": [
+   "doxepin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.765,
+  "a": "prodep",
+  "b": "pramodep",
+  "a_ing": [
+   "fluoxetine"
+  ],
+  "b_ing": [
+   "opipramol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.765,
+  "a": "biospas",
+  "b": "myospas",
+  "a_ing": [
+   "dicyclomine",
+   "mefenamic acid"
+  ],
+  "b_ing": [
+   "chlorzoxazone",
+   "diclofenac",
+   "metaxalone",
+   "paracetamol",
+   "thiocolchicoside"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.765,
+  "a": "bymet",
+  "b": "kimet",
+  "a_ing": [
+   "metformin"
+  ],
+  "b_ing": [
+   "metoprolol succinate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "thyrox",
+  "b": "thiox",
+  "a_ing": [
+   "thyroxine"
+  ],
+  "b_ing": [
+   "aceclofenac",
+   "thiocolchicoside"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "ducaine",
+  "b": "dibucaine",
+  "a_ing": [
+   "aluminium hydroxide",
+   "milk of magnesia",
+   "oxetacaine"
+  ],
+  "b_ing": [
+   "dibucaine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "oline",
+  "b": "zoline",
+  "a_ing": [
+   "olanzapine"
+  ],
+  "b_ing": [
+   "camphor",
+   "hydroxypropylmethylcellulose",
+   "menthol",
+   "naphazoline",
+   "phenylephrine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "hyal",
+  "b": "hical",
+  "a_ing": [
+   "sodium hyaluronate"
+  ],
+  "b_ing": [
+   "calcium",
+   "vitamin d"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "pentab",
+  "b": "ventab",
+  "a_ing": [
+   "domperidone",
+   "pantoprazole"
+  ],
+  "b_ing": [
+   "desvenlafaxine",
+   "venlafaxine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "alerfix",
+  "b": "allerfex",
+  "a_ing": [
+   "ambroxol",
+   "levocetirizine",
+   "montelukast"
+  ],
+  "b_ing": [
+   "fexofenadine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "neuroprime",
+  "b": "neurocreme",
+  "a_ing": [
+   "methylcobalamin",
+   "pregabalin"
+  ],
+  "b_ing": [
+   "doxepin"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "esofine",
+  "b": "etofine",
+  "a_ing": [
+   "domperidone",
+   "esomeprazole",
+   "levosulpiride"
+  ],
+  "b_ing": [
+   "etoricoxib",
+   "thiocolchicoside"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.764,
+  "a": "ulgel",
+  "b": "ultigel",
+  "a_ing": [
+   "magaldrate",
+   "oxetacaine",
+   "simethicone"
+  ],
+  "b_ing": [
+   "benzocaine",
+   "chlorhexidine gluconate"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.763,
+  "a": "proxym",
+  "b": "proxidom",
+  "a_ing": [
+   "etodolac",
+   "paracetamol",
+   "s etodolac",
+   "thiocolchicoside"
+  ],
+  "b_ing": [
+   "naproxen"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.763,
+  "a": "flumet",
+  "b": "lumet",
+  "a_ing": [
+   "fluconazole"
+  ],
+  "b_ing": [
+   "artemether",
+   "lumefantrine"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.763,
+  "a": "alastin",
+  "b": "astin",
+  "a_ing": [
+   "ambroxol",
+   "loratadine"
+  ],
+  "b_ing": [
+   "atorvastatin",
+   "clopidogrel"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.763,
+  "a": "flugesic",
+  "b": "ugesic",
+  "a_ing": [
+   "flupirtine"
+  ],
+  "b_ing": [
+   "piroxicam"
+  ],
+  "a_kind": "brand",
+  "b_kind": "brand",
+  "band": "Very high"
+ },
+ {
+  "sim": 0.763,
+  "a": "sorbidiol",
+  "b": "sorbitol",
+  "a_ing": [
+   "ursodeoxycholic acid"
+  ],
+  "b_ing": [
+   "sorbitol"
+  ],
+  "a_kind": "brand",
+  "b_kind": "generic",
+  "band": "Very high"
+ }
+]

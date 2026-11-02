@@ -1,0 +1,4 @@
+PCA: biggest difference in explained-variance ratio: 1.6745791742850402e-08
+PCA: smallest |cosine| between my component and sklearn's (1.0 = same direction): 1.0
+kNN: queries (of 50) where my 6 nearest = sklearn's 6 nearest: 50
+k-means inertia: mine 359.8 | sklearn (best of 3) 360.6
