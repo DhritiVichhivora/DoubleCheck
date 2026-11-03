@@ -1,4 +1,4 @@
-"""Pages of the LASA Guard dashboard."""
+"""Pages of the DoubleCheck dashboard."""
 import html
 import json
 from pathlib import Path
@@ -58,6 +58,11 @@ def card(n, title, body):
     return '<div class="nw-card"><div class="nw-title"><span class="nw-n">%d</span>%s</div>%s</div>' % (n, title, body)
 
 
+def legend_html():
+    return ('<div class="nw"><div class="nw-cap">Risk bands compare this pair with all %s name pairs: %s closest 1%% &nbsp; %s closest 0.1%% &nbsp; %s closest 0.01%%.</div></div>'
+            % (f"{info()['n_pairs']:,}", ui.chip("Watch"), ui.chip("High"), ui.chip("Very high")))
+
+
 def verdict_html(b):
     cls = {"Very high": "nw-vbad", "High": "nw-vbad", "Watch": "nw-vmid", "Low": "nw-vfit"}[b]
     return '<span class="nw-vd %s">%s risk of confusion</span>' % (cls, b)
@@ -66,13 +71,20 @@ def verdict_html(b):
 # ------------------------------------------------------------------ 1. overview
 def overview(dark):
     v = info()
-    md(ui.hero("LASA Guard", "A look-alike / sound-alike medicine name checker for Indian brands"))
+    md(ui.hero("DoubleCheck", "A look-alike / sound-alike medicine name checker for Indian brands"))
     md(ui.kpis([("%s" % f"{v['n_brands']:,}", "Indian brand names checked"), ("%s" % f"{v['n_pairs']/1e6:.0f} M", "name pairs compared"),
                 (pct(v["ismp"]["PCA + edit distance (shipped)"]["top10"][0]), "official confusable pairs found in top 10"),
                 (pct(v["corruption"]["PCA + edit distance (shipped)"]["1"]), "misspelt names recovered (top 1)")]))
+    md('<div class="nw"><div class="nw-card" style="font-size:1rem"><b>Type any medicine name and, in a second, see which look-alike names could cause a mix-up, and which of them are a different drug.</b></div></div>')
+    md(ui.section("Try it in 10 seconds"))
+    md('<div class="nw"><div class="nw-grid">'
+       '<div class="nw-card"><b>1. Check a Medicine</b><div class="nw-cap">Click <b>Lasix</b>. See its look-alikes and which ones are a different drug.</div></div>'
+       '<div class="nw-card"><b>2. New Brand Name Check</b><div class="nw-cap">Keep <b>Lasoprin</b> with aspirin. See why the tool says "review before using".</div></div>'
+       '<div class="nw-card"><b>3. Riskiest Pairs</b><div class="nw-cap">Type <b>cef</b> in the filter to see the closest look-alike antibiotics.</div></div>'
+       '</div></div>')
     md(ui.section("The problem"))
     md('<div class="nw"><div class="nw-card">Many medicines have names that look or sound almost the same. A rushed pharmacist, a hand-written prescription or a tired nurse can pick the wrong one. '
-       'These look-alike sound-alike (LASA) errors are a recognised cause of medication harm. India makes it harder: thousands of brand names, new launches every month.'
+       'These look-alike sound-alike errors (called LASA errors) are a recognised cause of medication harm. India makes it harder: thousands of brand names, new launches every month.'
        '<div class="nw-cap">What this tool does: type a medicine name and it lists the names most likely to be confused with it, and flags the ones that are a <b>different drug</b>.</div></div></div>')
     md(ui.section("How it works"))
     md(ui.flow([("1", "Clean the name", "Losar-H 50 Tablet becomes losar"), ("2", "Make numbers", "letter groups of the spelling and the sound"),
@@ -136,14 +148,16 @@ def check_page(dark):
         md(ui.section("Look-alike names that are a different drug"))
         rows = [(esc(n["name"]) + (" <span class='nw-cap'>(generic)</span>" if n["kind"] == "generic" else ""), ui.chip(band(n["sim"])), pct(n["sim"]), ing_txt(n["ingredients"]),
                  esc("; ".join(n["products"][:1])) or "-") for n in diff[:10]]
-        md(ui.table(["Name", "Risk", "Closeness", "Active ingredient", "Example product"], rows) if rows else
+        md(ui.table(["Name", "Risk", "Similarity", "Active ingredient", "Example product"], rows) if rows else
            '<div class="nw"><div class="nw-card">No different drug among the 80 closest names.</div></div>')
+        md(legend_html())
         if same:
             with st.expander("Close names that are the same drug (harmless to mix up) - %d" % len(same)):
-                md(ui.table(["Name", "Closeness", "Active ingredient"], [(esc(n["name"]), pct(n["sim"]), ing_txt(n["ingredients"])) for n in same[:10]]))
+                md(ui.table(["Name", "Similarity", "Active ingredient"], [(esc(n["name"]), pct(n["sim"]), ing_txt(n["ingredients"])) for n in same[:10]]))
     else:
         md(ui.section("Closest names"))
-        md(ui.table(["Name", "Risk", "Closeness", "Active ingredient"], [(esc(n["name"]), ui.chip(band(n["sim"])), pct(n["sim"]), ing_txt(n["ingredients"])) for n in nb[:10]]))
+        md(ui.table(["Name", "Risk", "Similarity", "Active ingredient"], [(esc(n["name"]), ui.chip(band(n["sim"])), pct(n["sim"]), ing_txt(n["ingredients"])) for n in nb[:10]]))
+        md(legend_html())
 
     md(ui.section("What happened to your name, step by step"))
     x = e.vec.transform([stem])[0]
@@ -155,11 +169,11 @@ def check_page(dark):
        + card(2, "Spell it by sound", "<div class='nw-big' style='font-size:1.5rem'>%s</div><div class='nw-cap'>Simple rules: ph is f, ck is k, soft c is s, y is i, doubled letters collapse.</div>" % esc(sound_key(stem)))
        + card(3, "Turn it into numbers", "<div class='nw-big' style='font-size:1.5rem'>%d of 3,000</div><div class='nw-cap'>letter groups are present. Most distinctive: %s. Rare groups count more (TF-IDF).</div>" % (int((x > 0).sum()), esc(", ".join(fn[i].replace("s", "spelling ", 1) if fn[i][0] == "s" else fn[i].replace("p", "sound ", 1) for i in top))))
        + card(4, "Squeeze with PCA", "<div class='nw-big' style='font-size:1.5rem'>3,000 &rarr; %d</div><div class='nw-cap'>numbers. PC1 = %.2f, PC2 = %.2f. Names with similar numbers are close in this space (cosine).</div>" % (len(z), z[0], z[1]))
-       + card(5, "Find and compare", "<div class='nw-cap'>kNN finds the nearest names. Closeness = half PCA cosine + half edit distance on the sound key. The result is compared with all %s name pairs to set the risk band.</div>" % f"{info()['n_pairs']:,}")
+       + card(5, "Find and compare", "<div class='nw-cap'>kNN finds the nearest names. Similarity = half PCA cosine + half edit distance on the sound key. The result is compared with all %s name pairs to set the risk band.</div>" % f"{info()['n_pairs']:,}")
        + card(6, "Check the drug", "<div class='nw-cap'>Close names with the <b>same</b> ingredient are harmless. Close names with a <b>different</b> ingredient are the warning.</div>")
        + "</div></div>")
     c = info()["cut"]
-    md('<div class="nw"><div class="nw-cap">Risk bands: Watch = closer than 99%% of all name pairs (closeness &ge; %.2f), High = closer than 99.9%% (&ge; %.2f), Very high = closer than 99.99%% (&ge; %.2f).</div></div>'
+    md('<div class="nw"><div class="nw-cap">Risk bands: Watch = closer than 99%% of all name pairs (similarity &ge; %.2f), High = closer than 99.9%% (&ge; %.2f), Very high = closer than 99.99%% (&ge; %.2f).</div></div>'
        % (c["watch"], c["high"], c["very_high"]))
 
 
@@ -188,8 +202,9 @@ def newname_page(dark):
     md('<div class="nw"><div class="nw-card">%s<div style="margin-top:10px;font-weight:700">%s</div><div class="nw-cap">%s%s</div></div></div>'
        % (verdict_html(b), msg[0], msg[1], " <b>This exact name already exists in the sample.</b>" if exact else ""))
     md(ui.section("Closest existing brands with a different drug"))
-    md(ui.table(["Existing brand", "Risk", "Closeness", "Its active ingredient", "Example product"],
+    md(ui.table(["Existing brand", "Risk", "Similarity", "Its active ingredient", "Example product"],
                 [(esc(n["name"]), ui.chip(band(n["sim"])), pct(n["sim"]), ing_txt(n["ingredients"]), esc("; ".join(n["products"][:1]))) for n in diff[:8]]))
+    md(legend_html())
     md('<div class="nw"><div class="nw-cap">Only the 5,746 brands in the Indian sample are checked, not the whole market, and not trademark databases. A clear result here is not a legal clearance.</div></div>')
 
 
@@ -263,7 +278,7 @@ def validation_page(dark):
     md(ui.table(["Method", "Original is #1", "Original in top 5"], [(("<b>%s</b>" % esc(m)) if m == ship else esc(m), pct(d["1"], 1), pct(d["5"], 1)) for m, d in v["corruption"].items()]))
     md(ui.section("How the risk bands were set"))
     c = v["cut"]
-    md(ui.table(["Band", "Rule", "Closeness at least", "Share of ISMP pairs inside"],
+    md(ui.table(["Band", "Rule", "Similarity at least", "Share of ISMP pairs inside"],
                 [(ui.chip("Watch"), "closest 1%% of all %s pairs" % f"{v['n_pairs']:,}", "%.2f" % c["watch"], pct(v["ismp_cover"]["watch"])),
                  (ui.chip("High"), "closest 0.1%", "%.2f" % c["high"], pct(v["ismp_cover"]["high"])),
                  (ui.chip("Very high"), "closest 0.01%", "%.2f" % c["very_high"], pct(v["ismp_cover"]["very_high"]))]))
@@ -285,9 +300,9 @@ def pairs_page(dark):
         ql = q.lower()
         R = [r for r in R if ql in r["a"] or ql in r["b"] or any(ql in x for x in r["a_ing"] + r["b_ing"])]
     md(ui.section("%d pairs" % len(R)))
-    md(ui.table(["Name A", "Ingredient A", "Name B", "Ingredient B", "Closeness", "Risk"],
-                [(esc(r["a"]), ing_txt(r["a_ing"], 2), esc(r["b"]), ing_txt(r["b_ing"], 2), pct(r["sim"]), ui.chip(r["band"])) for r in R[:120]]))
-    md('<div class="nw"><div class="nw-cap">Some pairs here come from the source data, not from real confusion. For example, a misspelt entry such as "minicycline" is listed with a different ingredient than "minocycline". Checking the data source is one of the next steps. Pairs are listed only when closeness reaches the High band.</div></div>')
+    md(ui.table(["Name A", "Ingredient A", "Name B", "Ingredient B", "Similarity", "Risk"],
+                [(esc(r["a"]), ing_txt(r["a_ing"], 2), esc(r["b"]), ing_txt(r["b_ing"], 2), pct(r["sim"], 1), ui.chip(r["band"])) for r in R[:120]]))
+    md('<div class="nw"><div class="nw-cap">Some pairs here come from the source data, not from real confusion. For example, a misspelt entry such as "minicycline" is listed with a different ingredient than "minocycline". Checking the data source is one of the next steps. Pairs are listed only when similarity reaches the High band.</div></div>')
 
 
 # ------------------------------------------------------------------ 7. limits & about
@@ -297,7 +312,7 @@ def about_page(dark):
     md(ui.section("Limitations"))
     items = [("Names only", "It compares written names. It does not hear pronunciation, read handwriting, or compare packaging, strength or dosage form."),
              ("A sample, not the market", "%s brand names from %s products. India has many more brands, so a clear result here is not a clearance." % (f"{v['n_brands']:,}", f"{v['products']:,}")),
-             ("Risk means closeness, not proven harm", "The bands rank how close two names are. They are not error rates. No trial of real pharmacy use was done."),
+             ("Risk means similarity, not proven harm", "The bands rank how close two names are. They are not error rates. No trial of real pharmacy use was done."),
              ("About half of the official pairs are missed", "Many confusions are not about spelling. A quiet result is not proof of safety."),
              ("Ingredient data may contain errors", "The source looks scraped from a pharmacy website; entries such as a misspelt brand with the wrong ingredient exist. The ingredient check inherits those errors."),
              ("Not a medical device", "It is a student project and a screening aid. Pharmacists and doctors make the decisions.")]

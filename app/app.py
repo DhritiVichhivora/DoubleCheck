@@ -1,4 +1,4 @@
-"""LASA Guard: a look-alike / sound-alike medicine name checker for Indian brands (multi-page dashboard)."""
+"""DoubleCheck: a look-alike / sound-alike medicine name checker for Indian brands (multi-page dashboard)."""
 import os
 import sys
 from pathlib import Path
@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT / "app"))
 import ui       # noqa: E402
 import views    # noqa: E402
 
-st.set_page_config(page_title="LASA Guard", page_icon="💊", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="DoubleCheck", page_icon="✅", layout="wide", initial_sidebar_state="expanded")
 
 if "dark" not in st.session_state:
     try:
@@ -35,7 +35,7 @@ with st.sidebar:
     page = st.radio("Page", list(PAGES), label_visibility="collapsed")
     st.toggle("🌙 Dark mode", key="dark")
     st.markdown("---")
-    st.caption("**LASA Guard**  \nFoundations of ML · NMIMS MPSTME  \nPCA, kNN and k-means written in NumPy.  \nData: 11,825 Indian medicine products; ISMP confused-names list for validation.")
+    st.caption("**DoubleCheck**  \nFoundations of ML · NMIMS MPSTME  \nPCA, kNN and k-means written in NumPy.  \nData: 11,825 Indian medicine products; ISMP confused-names list for validation.")
 
 st.markdown(ui.css(st.session_state["dark"]), unsafe_allow_html=True)
 PAGES[page](st.session_state["dark"])

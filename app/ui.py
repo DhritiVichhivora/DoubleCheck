@@ -1,4 +1,4 @@
-"""HTML building blocks for the LASA Guard pages. Colours use translucent greys so the same markup works in light and dark."""
+"""HTML building blocks for the DoubleCheck pages. Colours use translucent greys so the same markup works in light and dark."""
 import re
 
 GREEN, YELLOW, ORANGE, RED = "#2e9d4f", "#f2b01e", "#ef6c00", "#d32f2f"

@@ -4,7 +4,7 @@ Before you start: open a terminal in the project folder, run `streamlit run app\
 Say the numbers in your own words; they are written out here so you do not have to remember them.
 
 ## 0:00 to 1:30  The problem
-- "Many medicines have names that look or sound almost the same. Losar is a blood pressure tablet. Lasix is a diuretic. The names look alike, the drugs are completely different."
+- "Many medicines have names that look or sound almost the same. Zyrtec is an allergy tablet (cetirizine). Zyrik is a gout tablet (allopurinol). The names are close, the drugs are completely different. My tool rates that pair High."
 - "A tired nurse, a rushed pharmacist or an unclear prescription can pick the wrong one. This is called a look-alike sound-alike error, and it is a recognised cause of medication harm. India has thousands of brand names and new ones launch every month."
 - "My project is a checker: type a brand name, and it tells you which names could be confused with it, and which of those are a different drug."
 
@@ -30,8 +30,8 @@ Show the "PCA: the core" page.
 - "I checked my hand-written PCA, kNN and k-means against scikit-learn: PCA explained variance matches to 1e-8, kNN and k-means match."
 
 ## 7:30 to 10:30  Live demo (go in this order)
-1. **Check a Medicine**, click `Lasix`: show the ingredient (furosemide), the look-alike list, risk chips, and scroll to "what happened to your name, step by step".
-2. Click `Zyrtec`, then `Allegra`: different results, same flow.
+1. **Check a Medicine**, click `Zyrtec`: show the ingredient (cetirizine), the look-alike list (airtec, zyrik ...), risk chips, and scroll to "what happened to your name, step by step".
+2. Click `Lasix` (look-alike: Plavix, a different drug) and then `Allegra` (look-alikes: Penegra, Zenegra): different results, same flow.
 3. **New Brand Name Check**: keep "Lasoprin" with aspirin. "A company wants to launch this name. The tool says High risk, review before using, and lists the existing brands it is close to."
 4. **PCA page**: type `losar` in the map box; the neighbours light up. Say: "The first two components hold only 1.8% of the variance, so this map is a rough sketch; real comparisons use all 256 numbers."
 5. **Riskiest Pairs**: "These are the closest different-drug pairs in the Indian sample. I also noticed a data error here: a misspelt entry listed with the wrong ingredient. That shows the data source needs checking."
