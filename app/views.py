@@ -11,6 +11,7 @@ import streamlit as st
 import ui
 from engine import Engine
 from names import brand_stem, sound_key
+import extras
 
 ROOT = Path(__file__).resolve().parent.parent
 esc = html.escape
@@ -56,6 +57,15 @@ def ing_txt(L, n=3):
 
 def card(n, title, body):
     return '<div class="nw-card"><div class="nw-title"><span class="nw-n">%d</span>%s</div>%s</div>' % (n, title, body)
+
+
+@st.cache_data(show_spinner=False)
+def _suggest(name, ing):
+    """Safer-name suggester (cached so the page stays fast when it reruns)."""
+    return extras.suggest(engine(), name, list(ing))
+
+
+SAMPLE_STOCK = "Zyrtec, Zyrik, Airtec, Lasix, Plavix, Allegra, Penegra, Darilong, Dabilong, Noworm, Novonorm, Safecet, Saferet, Lozapin, Ozapin, Hicet, Hizet, Dolo, Crocin, Augmentin, Azithral, Pantop"
 
 
 def legend_html():
@@ -207,6 +217,19 @@ def newname_page(dark):
     md(legend_html())
     md('<div class="nw"><div class="nw-cap">Only the 5,746 brands in the Indian sample are checked, not the whole market, and not trademark databases. A clear result here is not a legal clearance.</div></div>')
 
+    md(ui.section("Safer alternatives"))
+    if b == "Low":
+        md('<div class="nw"><div class="nw-card">This name already looks clear, so no alternatives are needed.</div></div>')
+    else:
+        with st.spinner("Trying small variations of your name..."):
+            base_sim, base_name, sug = _suggest(name, tuple(ing))
+        md('<div class="nw"><div class="nw-cap">Your name <b>%s</b> is closest to <b>%s</b> (a different drug), similarity %s. Below are small variations of it that are less close to any existing different-drug brand.</div></div>'
+           % (esc(stem), esc(base_name), pct(base_sim, 1)))
+        md(ui.table(["Suggested name", "Risk", "Similarity", "Closest different drug", "What changed"],
+                    [(esc(r["name"]), ui.chip(band(r["sim"])) if band(r["sim"]) != "Low" else "Clear", pct(r["sim"], 1), esc(r["closest"]), esc(r["why"])) for r in sug]))
+        md('<div class="nw"><div class="nw-cap">How it works: the app makes small edits of your name (new ending, a changed vowel or first letter, a dropped or added letter), scores each against all %s brand and generic names with the same method as above, and lists the ones with the lowest similarity to a different drug. '
+           'These are ideas only: they are checked against this Indian sample, not against trademark databases, and a person should still check that the name is easy to say and write.</div></div>' % f"{len(e.names):,}")
+
 
 # ------------------------------------------------------------------ 4. PCA
 def pca_page(dark):
@@ -294,6 +317,7 @@ def pairs_page(dark):
     v = info()
     md(ui.hero("Riskiest Pairs", "The closest look-alike names in the Indian sample that are different drugs"))
     md(ui.kpis([(f"{v['risky_diff']:,}", "different-drug pairs in the closest 0.1%"), ("300", "closest shown here")]))
+    md('<div class="nw"><div class="nw-cap">Scroll to the bottom of this page for the <b>Shelf planner</b>: enter a pharmacy\'s stock and get a plan that keeps risky pairs on different shelves.</div></div>')
     q = st.text_input("Filter by name or ingredient", placeholder="e.g. cef, insulin")
     R = risky()
     if q:
@@ -303,6 +327,37 @@ def pairs_page(dark):
     md(ui.table(["Name A", "Ingredient A", "Name B", "Ingredient B", "Similarity", "Risk"],
                 [(esc(r["a"]), ing_txt(r["a_ing"], 2), esc(r["b"]), ing_txt(r["b_ing"], 2), pct(r["sim"], 1), ui.chip(r["band"])) for r in R[:120]]))
     md('<div class="nw"><div class="nw-cap">Some pairs here come from the source data, not from real confusion. For example, a misspelt entry such as "minicycline" is listed with a different ingredient than "minocycline". Checking the data source is one of the next steps. Pairs are listed only when similarity reaches the High band.</div></div>')
+
+    md(ui.section("Shelf planner for a pharmacy"))
+    md('<div class="nw"><div class="nw-cap">Enter the medicines a pharmacy stocks. The planner finds pairs that are close in name but a different drug, and places the medicines on shelves so those pairs are not side by side. '
+       'Close names that are the same drug are ignored. Names in the same k-means zone are spread across shelves where possible.</div></div>')
+    txt = st.text_area("Medicines in stock (separate with commas or new lines)", value=SAMPLE_STOCK, height=110)
+    up = st.file_uploader("Or upload a CSV (first column = medicine names)", type=["csv"])
+    n_sh = st.slider("Number of shelves", 2, 8, 4)
+    names_in = [x.strip() for x in txt.replace("\n", ",").split(",") if x.strip()]
+    if up is not None:
+        try:
+            names_in = [str(x) for x in pd.read_csv(up).iloc[:, 0].dropna().tolist()]
+        except Exception:
+            st.warning("Could not read that file as a CSV.")
+    names_in = names_in[:80]
+    e = engine()
+    plan = extras.shelf_plan(e, names_in, n_sh, info()["cut"]["watch"])
+    md(ui.kpis([(str(len(plan["found"])), "medicines found in the data"), (str(len(plan["pairs"])), "close different-drug pairs"),
+                (str(n_sh), "shelves"), (str(len(plan["conflicts"])), "pairs still on the same shelf")]))
+    if plan["missing"]:
+        md('<div class="nw"><div class="nw-cap">Not found in the Indian sample, so not placed: %s.</div></div>' % esc(", ".join(plan["missing"])))
+    if plan["pairs"]:
+        md(ui.section("Pairs to keep apart"))
+        shelf_of = {m: i + 1 for i, sh in enumerate(plan["shelves"]) for m in sh}
+        md(ui.table(["Name A", "Name B", "Similarity", "Risk", "Shelves (A / B)"],
+                    [(esc(a), esc(b), pct(s, 1), ui.chip(band(s)), "%d / %d" % (shelf_of[a], shelf_of[b])) for a, b, s in plan["pairs"][:30]]))
+    md(ui.section("Suggested shelf plan"))
+    rows = [("Shelf %d" % (i + 1), esc(", ".join(sorted(sh))) or "-") for i, sh in enumerate(plan["shelves"])]
+    md(ui.table(["Shelf", "Medicines"], rows))
+    csv = pd.DataFrame([(i + 1, m, plan["zone"][m]) for i, sh in enumerate(plan["shelves"]) for m in sorted(sh)], columns=["shelf", "medicine", "k_means_zone"]).to_csv(index=False)
+    st.download_button("Download the shelf plan (CSV)", csv, file_name="shelf_plan.csv", mime="text/csv")
+    md('<div class="nw"><div class="nw-cap">A planning aid, not a tested pharmacy procedure. It only knows the %s brands in this sample, and it separates names that are close on paper; it does not know how a pharmacy is physically laid out.</div></div>' % f"{info()['n_brands']:,}")
 
 
 # ------------------------------------------------------------------ 7. limits & about

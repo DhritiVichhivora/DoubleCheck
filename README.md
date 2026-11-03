@@ -25,6 +25,8 @@ A second page checks a *proposed new brand name* against existing ones before la
 5. **Ingredient check.** Close names with the same active ingredient are harmless; close names with a different ingredient are the warning.
 6. **Risk band** = how close the pair is compared with all 21 million name pairs: Watch (closest 1%), High (0.1%), Very high (0.01%).
 7. **k-means** (40 zones) groups names into crowded neighbourhoods.
+8. **Safer-name suggester** (New Brand Name Check page): tries small edits of a proposed name and lists the 5 variations least like any existing different-drug brand.
+9. **Shelf planner** (Riskiest Pairs page): enter a pharmacy's stock and get a shelf plan that keeps close, different-drug names apart; k-means zones are used as a tie-break.
 
 ## Results (honest)
 Data: 11,825 Indian medicine products, giving 5,746 brand names and 749 generic names.
@@ -70,7 +72,7 @@ python lassa\lab_check.py         # compares the hand-written PCA, kNN and k-mea
 
 ## Folders
 - `app/`: Streamlit dashboard (7 pages, light and dark).
-- `lassa/`: `lab_models.py` (PCA, kNN, k-means, lab style), `names.py` (cleaning, sound key, n-grams, edit distance), `engine.py`, `validate.py`, `build_model.py`, `lab_check.py`, `parse_ismp.py`, `download_data.py`.
+- `lassa/`: `extras.py` (safer-name suggester and shelf planner), `lab_models.py` (PCA, kNN, k-means, lab style), `names.py` (cleaning, sound key, n-grams, edit distance), `engine.py`, `validate.py`, `build_model.py`, `lab_check.py`, `parse_ismp.py`, `download_data.py`.
 - `models/`: the fitted model (`lassa_v1.npz` and `lassa_v1.json`).
 - `docs/`: validation numbers, riskiest pairs, lab cross-check.
 - `data/`: raw inputs (not committed: see licences).
